@@ -56,7 +56,7 @@ function ChromeSend(msg, callback) {
 }
 
 function buttonStyle(el, style) {
-  for (key in style) {
+  for (const key in style) {
     el.style[key] = style[key];
   }
 }

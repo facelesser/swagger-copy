@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/content.js-loader-CfuOtckQ.js"
+        "assets/content.js-loader-1frDTelZ.js"
       ],
       "matches": [
         "<all_urls>"
@@ -21,7 +21,7 @@
         "<all_urls>"
       ],
       "resources": [
-        "assets/content.js-CoNqOo2U.js"
+        "assets/content.js-A--pNJnx.js"
       ],
       "use_dynamic_url": true
     }
