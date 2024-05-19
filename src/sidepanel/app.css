@@ -1,0 +1,53 @@
+.app {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    flex-flow:column;
+    overflow: hidden;
+}
+
+.code-box {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+.code-box .title {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.88;
+    text-align: center;
+}
+
+.code-box pre {
+    flex: 1;
+    /* overflow: hidden; */
+    margin: 0;
+    overflow-y: auto;
+}
+
+.code-box pre code {
+    height: 100%;
+}
+
+.code-box .copy {
+    position:absolute;
+    right: 24px;
+    top: 40px;
+}
+
+.code-box .copy:disabled {
+    border-color: #36b376;
+    color: #fff;
+    background: #36b376;
+    opacity: 0.8;
+}

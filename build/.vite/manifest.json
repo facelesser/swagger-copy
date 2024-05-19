@@ -1,0 +1,64 @@
+{
+  "../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-C_TLEBQJ.js",
+    "name": "crx-manifest.js",
+    "src": "../../../@crx/manifest",
+    "isEntry": true
+  },
+  "__commonjsHelpers-uqKOVeGF.js": {
+    "file": "assets/_commonjsHelpers-uqKOVeGF.js",
+    "name": "_commonjsHelpers"
+  },
+  "_button-DyXpWbLH.js": {
+    "file": "assets/button-DyXpWbLH.js",
+    "name": "button",
+    "imports": [
+      "__commonjsHelpers-uqKOVeGF.js"
+    ]
+  },
+  "content.js-loader.js": {
+    "file": "assets/content.js-loader-Xxfz9lq4.js",
+    "src": "content.js-loader.js"
+  },
+  "index.html": {
+    "file": "assets/index-2g5tT_9r.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_button-DyXpWbLH.js",
+      "__commonjsHelpers-uqKOVeGF.js"
+    ],
+    "css": [
+      "assets/index-CqLBKmMd.css"
+    ]
+  },
+  "sidepanel.html": {
+    "file": "assets/sidepanel-DBF33P5U.js",
+    "name": "sidepanel",
+    "src": "sidepanel.html",
+    "isEntry": true,
+    "imports": [
+      "_button-DyXpWbLH.js",
+      "__commonjsHelpers-uqKOVeGF.js"
+    ],
+    "css": [
+      "assets/sidepanel-iKgWsiPy.css"
+    ]
+  },
+  "src/bg/background.js": {
+    "file": "assets/background.js-l0sNRNKZ.js",
+    "name": "background.js",
+    "src": "src/bg/background.js",
+    "isEntry": true
+  },
+  "src/ctx/content.js": {
+    "file": "assets/content.js-BfkPtspu.js",
+    "name": "content.js",
+    "src": "src/ctx/content.js",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-uqKOVeGF.js"
+    ]
+  }
+}

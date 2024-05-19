@@ -1,0 +1,28 @@
+#app {
+    width: 260px;
+    padding: 0 24px;
+}
+
+.config-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+.config-item .item-title {
+    min-width: 100px;
+}
+
+.header {
+    text-align: center;
+    color: #e82e91;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.footer {
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
+}
