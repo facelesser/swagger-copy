@@ -34,7 +34,7 @@
     ]
   },
   "sidepanel.html": {
-    "file": "assets/sidepanel-DBF33P5U.js",
+    "file": "assets/sidepanel-DCvM73eT.js",
     "name": "sidepanel",
     "src": "sidepanel.html",
     "isEntry": true,
@@ -43,7 +43,7 @@
       "__commonjsHelpers-uqKOVeGF.js"
     ],
     "css": [
-      "assets/sidepanel-iKgWsiPy.css"
+      "assets/sidepanel-C3vTihgJ.css"
     ]
   },
   "src/bg/background.js": {
